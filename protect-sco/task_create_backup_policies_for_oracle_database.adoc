@@ -107,7 +107,7 @@ Seleccione *Eliminar registros de archivo de los destinos que forman parte de co
 
 |===
 +
-image:../media/sco_backuppolicy_prunning.gif[""]
+image:../media/sco_backuppolicy_prunning.gif["incumplimiento de la política de backup"]
 
 
 

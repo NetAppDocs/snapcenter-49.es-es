@@ -1,5 +1,8 @@
 ---
 indexpage:
+  title: Documentación del software SnapCenter
+  keywords: snapcenter server, plug-in, data protection, applications, databases,
+    host file systems, VmWare, backup, restore, clone
   lead: El software SnapCenter es una plataforma sencilla, centralizada y escalable
     que proporciona protección de datos consistente con las aplicaciones para aplicaciones,
     bases de datos, sistemas de archivos host y máquinas virtuales que se ejecutan
@@ -70,7 +73,7 @@ indexpage:
   - title: Más recursos
     links:
     - title: Guía de referencia de cmdlet
-      url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2886205
+      url: https://docs.netapp.com/us-en/snapcenter-cmdlets-49/index.html
     - title: Guía de referencia de comandos
       url: https://library.netapp.com/ecm/ecm_download_file/ECMLP2886206
     - title: Documentación de versiones anteriores de SnapCenter

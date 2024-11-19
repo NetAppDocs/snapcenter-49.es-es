@@ -20,7 +20,7 @@ Añada una o más políticas al grupo de recursos para definir el tipo de trabaj
 
 En la siguiente imagen, se muestra la relación entre los recursos, los grupos de recursos y las políticas para las bases de datos:
 
-image::../media/sco_resourcegroup_policy.gif[política de sco resourcegroup]
+image::../media/sco_resourcegroup_policy.gif[política de grupo de recursos]
 
 .Pasos
 . En el panel de navegación de la izquierda, seleccione *Recursos* y el plug-in apropiado de la lista.

@@ -201,7 +201,7 @@ SnapCenter permite usar las variables de entorno predefinidas al ejecutar el scr
 
 .. En la sección Database Parameter settings, modifique los valores de los parámetros de la base de datos completados automáticamente que se utilizan para inicializar la base de datos.
 +
-Para agregar parámetros adicionales, haga clic en *image:../media/add_policy_from_resourcegroup.gif[""]*.
+Puede agregar parámetros adicionales haciendo clic en image:../media/add_policy_from_resourcegroup.gif["añada una política desde el grupo de recursos"].
 
 +
 Si está utilizando Oracle Standard Edition y la base de datos se está ejecutando en el modo de registro de archivo o desea restaurar una base de datos del redo log de archivo, agregue los parámetros y especifique la ruta de acceso.
