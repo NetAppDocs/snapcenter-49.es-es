@@ -47,27 +47,17 @@ Por ejemplo: `10.225.81.35 SCServer1`
 +
 Las entradas del servidor etc/host no se restaurarán. Puede restaurarlo manualmente desde la carpeta de backup de recuperación ante desastres.
 
++
+*** Después de la restauración de recuperación ante desastres, se añadirá el host, pero debe instalar el plugin manualmente.
+*** La programación de backup del repositorio se restaurará únicamente si instala el plugin de SnapCenter para Windows y asocia LUN de NetApp a la máquina servidor.
+*** Si las DLL están dañadas, puede intentar reparar el servidor SnapCenter o corregir la instalación defectuosa.
+*** Si los archivos nsm o de configuración están dañados, puede desinstalar y volver a instalar el servidor SnapCenter con la misma versión.
+*** Si la máquina virtual está dañada, abra otra máquina virtual o una máquina con el mismo nombre e instale el servidor SnapCenter con la misma versión.
 
 
 
 
 
-NOTE: Para una configuración de F5, la operación de restauración se realiza como independiente, debe ejecutar un conjunto de comandos para volver a crear la F5. Consulte el enlace: https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/How_to_Migrate_SnapCenter_migrate_to_another_Server["Cómo migrar SnapCenter a otro servidor"^]
-
-
-NOTE: Después de la restauración de recuperación ante desastres, se añadirá el host, pero debe instalar el plugin manualmente.
-
-
-NOTE: La programación de backup del repositorio se restaurará únicamente si instala el plugin de SnapCenter para Windows y asocia LUN de NetApp a la máquina servidor.
-
-
-NOTE: Si las DLL están dañadas, puede intentar reparar el servidor SnapCenter o corregir la instalación defectuosa.
-
-
-NOTE: Si los archivos nsm o de configuración están dañados, puede desinstalar y volver a instalar el servidor SnapCenter con la misma versión.
-
-
-NOTE: Si la máquina virtual está dañada, abra otra máquina virtual o una máquina con el mismo nombre e instale el servidor SnapCenter con la misma versión.
 
 
 

@@ -1118,7 +1118,6 @@ También es posible seleccionar la autenticación de Windows si el usuario de Wi
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">Debe tener un usuario con permisos de administrador del sistema en SQL Server.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">El plugin de SnapCenter para Microsoft SQL Server utiliza Microsoft VDI Framework, para lo que se requiere acceso de sysadmin.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Artículo de soporte de Microsoft 2926557: Las operaciones de backup y restauración de VDI de SQL Server requieren privilegios de administrador del sistema</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="6f4630c11483dcb4143ae30dadd50487" category="list-text">Al instalar un plugin en un host de Windows, si especifica una credencial que no está integrada o si el usuario pertenece a un usuario de grupo de trabajo local, debe deshabilitar UAC en el host.</block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Si está instalado SnapManager para Microsoft SQL Server, debe haber detenido o deshabilitado el servicio y las programaciones.</block>
   <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">Si prevé importar tareas de backup o clonado a SnapCenter, no desinstale SnapManager para Microsoft SQL Server.</block>
@@ -6725,8 +6724,6 @@ Se ha producido un error interno general en el servidor.</block>
   <block id="e729f7885b63addbf250ef2f33329efb" category="paragraph">Si el plugin no puede resolver el nombre de host del servidor, inicie sesión en cada host del plugin y añada la entrada etc/host para la nueva IP en el formato &lt;New IP&gt; SC_Server_Name.
 Por ejemplo:<block ref="787ca03a3d14e5cce46cedf0bba7ac2b" prefix=" " category="inline-code"></block></block>
   <block id="421f836e09d607d08dad463276b0c52e" category="paragraph">Las entradas del servidor etc/host no se restaurarán. Puede restaurarlo manualmente desde la carpeta de backup de recuperación ante desastres.</block>
-  <block id="cf6d86307a7decebf79e2175ef2bc96f" category="inline-link">Cómo migrar SnapCenter a otro servidor</block>
-  <block id="40b06602d6310e9f595ec07f57b84775" category="admonition">Para una configuración de F5, la operación de restauración se realiza como independiente, debe ejecutar un conjunto de comandos para volver a crear la F5. Consulte el enlace:<block ref="fb5c34144d693d79610d99e63e5e4e12" category="inline-link-rx"></block></block>
   <block id="d51a9a84121a4ca319f6f0b5d481f073" category="admonition">Después de la restauración de recuperación ante desastres, se añadirá el host, pero debe instalar el plugin manualmente.</block>
   <block id="2dce035ff36be1c01663c842167acf77" category="admonition">La programación de backup del repositorio se restaurará únicamente si instala el plugin de SnapCenter para Windows y asocia LUN de NetApp a la máquina servidor.</block>
   <block id="90969e9b7bcd66fedcf0339db7d5e13e" category="admonition">Si las DLL están dañadas, puede intentar reparar el servidor SnapCenter o corregir la instalación defectuosa.</block>
@@ -8711,4 +8708,5 @@ Los nombres de usuario deben formatearse como usuario@dominio o dominio\usuario.
   <block id="d127c7070231e882bd97e8f2760d0a4f" category="sidebar">Documentación del software SnapCenter</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">Vea <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block> el vídeo.</block>
+  <block id="cb5d59c817a7392efa454c9c69508067" category="paragraph"><block ref="cb5d59c817a7392efa454c9c69508067" category="inline-link-rx"></block></block>
 </blocks>
