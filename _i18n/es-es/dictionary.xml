@@ -235,10 +235,7 @@
   <block id="50e1edb21a598f492619b01f99e77a4f" category="paragraph"><block ref="50e1edb21a598f492619b01f99e77a4f" category="inline-link-macro-rx"></block></block>
   <block id="9b51fddaf011faab92bf06f41ccf6d11" category="inline-link-macro">Crear grupos de recursos y asociar políticas para SQL Server</block>
   <block id="35002a531b4134648eef7b46ee445a29" category="paragraph"><block ref="35002a531b4134648eef7b46ee445a29" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">Se produce un error en las operaciones de backup con un error de conexión de MySQL debido a una demora en TCP_TIMEOUT</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">Error de backup con programador de Windows</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
   <block id="60b2a4dd687e5b16ce91fc08c7273c8b" category="summary">Es posible cancelar las operaciones de backup que se ejecutan, se encuentran en cola o no responden. Cuando se cancela una operación de backup, el servidor de SnapCenter detiene la operación y quita todas las copias de Snapshot del almacenamiento si el backup creado no se registra en SnapCenter Server. Si el backup ya está registrado en el servidor SnapCenter, no retrocederá la copia de Snapshot ya creada incluso después de que se active la cancelación.</block>
   <block id="6895fc6b34ff814dd8d20f8eb70439e5" category="doc">Cancelar las operaciones de backup del plugin de SnapCenter para Microsoft SQL Server</block>
   <block id="d15cddcc0f2911c53261943c85948fab" category="list-text">Inició sesión como administrador de SnapCenter o propietario del trabajo para cancelar las operaciones de restauración.</block>
@@ -401,7 +398,6 @@
   <block id="057a891f1c6d5f4aa0480b5f01c6bbc7" category="inline-link">No es posible detectar la relación de SnapMirror o SnapVault tras un fallo en MetroCluster</block>
   <block id="656764dc4fc9063500ad9c4607e32b3b" category="paragraph"><block ref="656764dc4fc9063500ad9c4607e32b3b" category="inline-link-rx"></block></block>
   <block id="f6e291f8da5e2bfb20622fac181e8aca" category="list-text">Si va a realizar el backup de datos de aplicación en VMDK y el tamaño de pila de Java para el plugin de SnapCenter para VMware vSphere no es suficientemente grande, se puede producir un error en el backup. Para aumentar el tamaño de pila de Java, busque el archivo de script /opt/netapp/init_scripts/scvservice. En ese script, la<block ref="f751567fc5d2c300402db2d50de19910" prefix=" " category="inline-code"></block> Command inicia el servicio de plugin de VMware de SnapCenter. Actualice este comando a lo siguiente:<block ref="d66632e2d1ccce4227411d877d93c152" prefix=" " category="inline-code"></block>.</block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="b97931d91e5908b44999bbc951cbee1f" category="summary">Es posible restaurar una base de datos de SQL Server desde una copia de backup en el almacenamiento primario o secundario. También es posible restaurar la base de datos a diferentes destinos además de su ubicación original, para poder elegir el destino que cumpla determinados requisitos.</block>
   <block id="f773433327b73966f565bf778dba8fce" category="doc">Orígenes y destinos para una operación de restauración</block>
   <block id="9f848691835222d0cd69e4d0dc96d02a" category="section-title">Orígenes para una operación de restauración</block>
@@ -1157,10 +1153,7 @@ También es posible seleccionar la autenticación de Windows si el usuario de Wi
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">Realizar backup de base de datos de SQL Server, instancia o grupo de disponibilidad</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link">Es posible que la operación de clonado produzca errores o tarde más tiempo en finalizar con el valor TCP_TIMEOUT predeterminado</block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">Se produce un error en el clon de la base de datos de la instancia de clúster</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="98d00f0950d49399aca5b7e5b8865719" category="summary">El plugin de SnapCenter para Microsoft SQL Server necesita backups de registros de transacciones para ejecutar operaciones de restauración de último minuto, que restauran la base de datos a un momento entre dos backups completos.</block>
   <block id="fdc4a4ab9ed4ec8a0e816124044ffbb2" category="doc">Cuánto tiempo se retienen los backups de registros de transacciones en el sistema de almacenamiento de origen</block>
   <block id="fd97a5c736cbe90079f5f9ad13506469" category="paragraph">Por ejemplo, si el plugin para SQL Server hizo un backup completo a las 8:00 y otro backup completo a las 8:00 p. m., se podía utilizar el último backup de registros de transacciones para restaurar la base de datos a cualquier momento entre las 5:00 y las 5:00 Si no se cuenta con registros de transacciones, el plugin para SQL Server solamente puede ejecutar operaciones de restauración a un momento específico, que restaura una base de datos al momento en que el plugin para SQL Server finalizó un backup completo.</block>
@@ -1172,7 +1165,6 @@ También es posible seleccionar la autenticación de Windows si el usuario de Wi
   <block id="70124670f70878681ab7bb78e2860796" category="image-alt">Clonar diagrama de flujo de trabajo</block>
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="39f61b5119a8f1055ebde041f182fd5c" category="summary">Windows Server 2012 o posterior le permite crear una cuenta de servicio gestionado de grupo \(GMSA\) que proporciona administración automatizada de contraseñas de cuenta de servicio desde una cuenta de dominio administrado.</block>
   <block id="c6750b3c76b6abfa242d19dc98ef1082" category="doc">Configurar GMSA en Windows Server 2012 o posterior</block>
   <block id="b3c3961c44cb62a9ae4273719a69e251" category="paragraph">Windows Server 2012 o posterior le permite crear una cuenta de servicio administrado de grupo (GMSA) que proporciona gestión automatizada de contraseñas de cuenta de servicio desde una cuenta de dominio administrado.</block>
@@ -1221,7 +1213,6 @@ También es posible seleccionar la autenticación de Windows si el usuario de Wi
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">Para obtener información sobre la implementación, consulte<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block>.</block>
   <block id="0a43bd1f35095f6ca081444f65372381" category="section-title">Implemente el certificado de CA</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">Crear o importar certificado SSL</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">Para configurar el certificado de CA con el plugin de SnapCenter para VMware vSphere, consulte<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block>.</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">Configure el archivo CRL</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">El plugin de SnapCenter para VMware vSphere busca los archivos CRL en un directorio preconfigurado. El directorio predeterminado de los archivos CRL del plugin SnapCenter para VMware vSphere es _/opt/netapp/config/crl_.</block>
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">Puede colocar más de un archivo CRL en este directorio. Los certificados entrantes se verificarán en cada CRL.</block>
@@ -7013,9 +7004,6 @@ Puede descargar los archivos de registro desde la interfaz de usuario de SnapCen
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">El plugin para Windows no admite MPIO en máquinas virtuales de un clúster de Microsoft.</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">Cree un LUN de RDM FC compartido</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">Para poder utilizar LUN de RDM FC a fin de compartir almacenamiento entre los nodos de un clúster de Microsoft, primero es necesario crear el disco de quórum compartido y el disco de almacenamiento compartido, y añadirlos a las dos máquinas virtuales en el clúster.</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">Equipos virtuales en clúster entre hosts físicos</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">El disco compartido no se crea mediante el plugin para Windows. Debe crear y luego agregar el LUN compartido a cada máquina virtual del clúster.
-Para obtener más información, consulte<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>.</block>
   <block id="c44898f41e877f5863f509561f82e262" category="summary">Es posible configurar el balanceo de carga de red de Microsoft (NLB) para configurar la función de alta disponibilidad de SnapCenter.</block>
   <block id="2d5db85f748f26999514af33f7603cc0" category="doc">Configure el balanceador de carga de red de Microsoft manualmente</block>
   <block id="5b226c362b407740af9b9e11ba12b385" category="paragraph">Es posible configurar el balanceo de carga de red de Microsoft (NLB) para configurar la función de alta disponibilidad de SnapCenter. En SnapCenter 4.2, debe configurar manualmente NLB fuera de la instalación de SnapCenter para obtener alta disponibilidad.</block>
@@ -7622,9 +7610,7 @@ Actualice este valor contra la clave SPL_CERTIFICATE_ALIAS.</block>
   <block id="ac91c641781bd7c7379113e123abc706" category="doc">Habilite la autenticación basada en certificados</block>
   <block id="2deb2b431122c2428813248c5cc7e3cf" category="paragraph">Para habilitar la autenticación basada en certificados para SnapCenter Server y los hosts del plugin de Windows, ejecute el siguiente cmdlet de PowerShell.  Para los hosts del plugin de Linux, se habilita la autenticación basada en certificado cuando se habilita SSL bidireccional.</block>
   <block id="012d451c2966c8058914f66afd3ff9be" category="list-text">Para habilitar la autenticación basada en certificados de cliente:</block>
-  <block id="c7414a7d4890863a34509bebe1bd9225" category="paragraph"><block ref="a578dd94961bb2b0ce287d29a112740b" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="a71cdd4660400fab236be52b25300411" prefix=" " category="inline-code"></block></block>
   <block id="8b5db05d124326542535790d2a1a0411" category="list-text">Para desactivar la autenticación basada en certificados de cliente:</block>
-  <block id="b5cfca9930b60b6f87f38ad0e8d31765" category="paragraph"><block ref="ee29fb805334372351c3e459eaf40ac3" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="b1b73520f4b4ea4d2583cc59029bbe0d" prefix=" " category="inline-code"></block></block>
   <block id="5fd3d0b8e71c4f64cfbad31e3fde1863" category="summary">Antes de instalar el servidor SnapCenter, debería estar familiarizado con los requisitos de espacio y tamaño. También debe aplicar las actualizaciones de sistema y seguridad disponibles.</block>
   <block id="18cd7192921dd5ac27a1a7c5ef795c20" category="doc">Requisitos de espacio y de tamaño</block>
   <block id="3dbe205a1db3f8f677f2e971edc8976d" category="paragraph">Solo se admiten las versiones en inglés, alemán, japonés y chino simplificado de los sistemas operativos.</block>
@@ -8709,4 +8695,13 @@ Los nombres de usuario deben formatearse como usuario@dominio o dominio\usuario.
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">Vea <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block> el vídeo.</block>
   <block id="cb5d59c817a7392efa454c9c69508067" category="paragraph"><block ref="cb5d59c817a7392efa454c9c69508067" category="inline-link-rx"></block></block>
   <block id="ea1c96f839915f73d25b910bbc92b734" category="list-text">Datos que se encuentran en sistemas primarios y secundarios de ONTAP FAS, AFF o ASA y están protegidos en el almacenamiento de objetos y archivos en la nube mediante la integración de respaldo y recuperación de NetApp</block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">Para configurar el certificado CA con SnapCenter Plug-in for VMware vSphere, consulta<block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>.</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">El disco compartido no se crea utilizando el Plug-in for Windows. Debes crear y luego agregar la LUN compartida a cada máquina virtual en el clúster.</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Documentación técnica de Broadcom</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph">Consulta<block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block> y busca documentación sobre la agrupación en clúster de máquinas virtuales entre hosts físicos y la creación de LUN FC RDM compartidos para clústeres de Microsoft.</block>
+  <block id="0ff275ffe02e672fcd7c5215c9cbcfb6" category="paragraph"><block ref="a578dd94961bb2b0ce287d29a112740b" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="0897acf49c7c1ea9f76efe59187aa046" prefix=" " category="inline-code"></block></block>
+  <block id="11428fc511268a2c63fa0e7ebcb2530d" category="paragraph"><block ref="ee29fb805334372351c3e459eaf40ac3" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="0897acf49c7c1ea9f76efe59187aa046" prefix=" " category="inline-code"></block></block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
 </blocks>
